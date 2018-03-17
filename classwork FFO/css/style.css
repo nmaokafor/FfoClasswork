@@ -1,0 +1,136 @@
+body{
+	margin: 0px;
+	background-color: #641d41;
+	opacity: 0.6%;
+	font-size: 17px;
+}
+*{
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 90vh;
+}
+.navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 10vh;
+	border: 1px solid transparent;
+	box-shadow: 0px 2px 20px 0px grey;
+	padding: 5px;
+	background-color: #641d41;
+	font-family: 'Oswald', sans-serif;
+	position: fixed;
+	z-index: 1;
+}
+.navbar a{
+	color: #dae6e6;
+	background-color: transparent;
+	text-decoration: none;
+}
+.navbar a:hover{
+	color: #dae6e6;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+.navbar a:visited{
+	color: #0573b9;
+	background-color: transparent;
+	text-decoration: none;
+}
+.logo{
+	width: 20%;
+	padding-left: 5%;
+	color: white;
+}
+.menu{
+	width: 50%;
+	padding-left: 15%;
+	display: grid;
+	grid-template-rows:100%;
+	grid-template-columns: 33.3% 33.3% 33.3%;
+	font-size: 25px;
+}
+.search{
+	width: 30%;
+	padding-right: 5%;
+}
+.search input{
+	width: 70%;
+}
+.search button{
+	width: 30%;
+}
+.header-image{
+	height: 80vh;
+	width: 100%;
+	text-align: center;
+}
+.image{
+	position: absolute;
+	background-image: url('http://www.tatashey.com/wp-content/uploads/2017/08/Grilled-Fish9-1440x970.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: inherit;
+	height: inherit;
+}
+.image-overlay{
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	background-color: black;
+	opacity: 0.6;
+}
+.text{
+	color: white;
+	position: absolute;
+	font-family: sans-serif;
+	margin-top: 30.2vh;
+	margin-left: 26vw;
+	margin-right: 26vw;
+	margin-bottom: 22.2vh;
+	text-align: center;
+	font-family: 'Playfair Display SC', serif;
+}
+.token{
+	text-align: center;
+	color: #9ba712;
+	font-family: 'Playfair Display SC', serif;
+}
+.recipes{
+	display: grid;
+	grid-template-rows: 100%;
+	grid-template-columns: 30% 30% 30%;
+	grid-column-gap: 5%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: justify;
+	color: #ffffff;
+}
+.recipes h1{
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Playfair Display SC', serif;
+}
+.recipes a{
+	text-decoration: none;
+	color: #9ba712;
+}
+.recipes img{
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+}
+.end{
+	text-align: center;
+	color: #ffffff;
+	background-color: #181e1e;
+	padding: 1%;
+	box-sizing: none;
+}
